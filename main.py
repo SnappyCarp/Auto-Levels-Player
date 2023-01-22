@@ -1,4 +1,5 @@
 import pygetwindow as Get
+import pyautogui as Pyauto
 from time import sleep as S
 
 def main():
