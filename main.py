@@ -13,16 +13,4 @@ def main():
 		button()
 		
 
-def button():
-	img = pyauto.locateCenterOnScreen('CreateButton.png', grayscale=False)
-	if img == None:
-		print('Button not Found')
-		S(1)
-		button()
-	else:
-		print('Button Found')
-		
-
-
-
 main()
